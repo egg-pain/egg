@@ -33,5 +33,5 @@ jobs:
         context: .
         file: Egg/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_NAME }}/egg:1.0
+        tags: ${{ secrets.DOCKERHUB_NAME }}/egg:2.0
       
